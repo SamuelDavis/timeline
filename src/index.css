@@ -1,9 +1,13 @@
 main {
     display: flex;
+    margin: auto;
+    width: 90vw;
 }
 
 aside {
-    flex-basis: 20%;
+    --aside-width: 6em;
+    min-width: var(--aside-width);
+    max-width: var(--aside-width);
 }
 
 article {
@@ -16,4 +20,9 @@ section {
 
 section * {
     flex-grow: 1;
+}
+
+ol {
+    margin: 0;
+    padding-left: 1em;
 }
