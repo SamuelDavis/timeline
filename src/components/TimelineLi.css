@@ -1,0 +1,15 @@
+li {
+    width: 100%;
+}
+
+li div {
+    display: flex;
+}
+
+li div input:first-child {
+    flex-grow: 1;
+}
+
+li.active {
+    color: cornflowerblue;
+}

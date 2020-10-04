@@ -1,0 +1,7 @@
+output {
+    margin: 1em;
+    position: relative;
+    background-image: repeating-linear-gradient(black 0, transparent 1px, transparent calc(1em - 1px), black 1em),
+    repeating-linear-gradient(90deg, black 0, transparent 1px, transparent calc(1em - 1px), black 1em);
+    background-color: lightgray;
+}
